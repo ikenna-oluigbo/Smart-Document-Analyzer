@@ -1,11 +1,6 @@
 import requests
-from ap_keys import my_api_key
 
-_, CORE_API_KEY = my_api_key()
-
-# Define the API endpoint and your API key
-# Note: You need a free API key from core.ac.uk/services/api
-
+CORE_API_KEY = "=== Your CORE API Key ==="
 
 def search_core_papers(query=None, year_from=2010, max_results=20):
     API_URL = "https://api.core.ac.uk/v3/search/works"
@@ -57,13 +52,8 @@ def search_core_papers(query=None, year_from=2010, max_results=20):
 
 # Example Usage
 def execute_search_papers(keywords):
-    from ap_keys import my_api_key
-    _, CORE_API_KEY = my_api_key()
-    
-    # Replace with your actual CORE API key
-    CORE_API_KEY = CORE_API_KEY
-    
-    # Search for papers on "transformer neural networks" published from 2010 onwards
+
+    # Search for papers published from 2010 onwards
     papers = search_core_papers(query=keywords, year_from=2010, max_results=20)
     
     if papers:
