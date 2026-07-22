@@ -1,5 +1,6 @@
 # Smart-Document-Analyzer
-Smart Article: Document Analyzer with RAG Integration. Deployed and hosted on streamlit. Access through https://smart-article.streamlit.app
+Smart Article: Document Analyzer with RAG Integration. Deployed and hosted on streamlit. Access through https://smart-article.streamlit.app 
+The fully deployed scripts can be found here: https://github.com/smartai-planet/article_rag_system
 
 <img width="1611" height="487" alt="Screenshot 2026-07-22 022257" src="https://github.com/user-attachments/assets/5ed67b87-30f1-4171-ac7a-d5e3de048041" />
 
