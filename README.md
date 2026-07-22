@@ -26,10 +26,10 @@ Smart Article: Document Analyzer with RAG Integration. Deployed and hosted on st
  - In the end, user session is closed and temporary session folder deleted.
 
 ## Python Libraries
-  pymupdf==1.28.0
-  pdfplumber==0.11.10
-  openai==2.43.0
-  chromadb==1.5.9
-  pandas==2.3.3
-  streamlit==1.59.2
-  requests==2.34.2
+- pymupdf==1.28.0
+- pdfplumber==0.11.10
+- openai==2.43.0
+- chromadb==1.5.9
+- pandas==2.3.3
+- streamlit==1.59.2
+- requests==2.34.2
